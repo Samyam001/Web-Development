@@ -1,3 +1,4 @@
+//  Question 1
 const colorPicker=document.getElementById("colorPicker");
 const colorBox= document.getElementById("colorBox");
 const resetButton=document.getElementById("resetButton");
@@ -13,7 +14,7 @@ resetButton.addEventListener("click",()=>{
     colorPicker.value=defaultColor;
 });
 
-// Q2
+// Question 2
 
 
 function getUser(id,callback){
@@ -28,7 +29,7 @@ function getUser(id,callback){
 
 
 
-// Q3
+// Question 3
 
 function getUser(id, callback) {
     setTimeout(() => {
@@ -65,7 +66,7 @@ getUser(1, (user) => {
     });
 });
 
-// Q4
+// Question 4
 
 function getUser(id) {
     return new Promise((resolve, reject) => {
@@ -113,7 +114,7 @@ getUser(1)
     });
 
 
-// Q5
+// Question 5
 function getUser(id) {
     return new Promise((resolve, reject) => {
         setTimeout(() => {
